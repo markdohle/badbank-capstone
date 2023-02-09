@@ -137,7 +137,6 @@ Write a data abstraction layer (DAL) package so you can separate your database-s
 
 Here, you’ll use promises to wrap calls between the database, DAL, and front end. Write the Create Account route in the DAL along with the video, then develop the remaining routes on your own.
 
-```
 Calling the database on a separate server and we don't know when the server will respond. Wrap the call in a 'Promise' to reject or resolve the call.
 
 ```
