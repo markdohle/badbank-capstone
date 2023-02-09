@@ -1,8 +1,7 @@
 const MongoClient = require('mongodb').MongoClient;
-
 // default port that is defined in the Docker Container
-const urlMongoDB = 'mongodb://localhost:27017';
-
+const urlMongoDB = "mongodb+srv://mark:1qaz2wsx@gettingstarted.nyxky3k.mongodb.net/?retryWrites=true&w=majority";
+//const urlMongoDB = 'mongodb://localhost:27017';
 // db has to be accessible to all calls
 let db = null;
 let collectionName ='users'

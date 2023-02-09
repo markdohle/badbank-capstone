@@ -72,7 +72,6 @@ function Withdraw() {
             bgcolor="warning"
             header="Withdraw"
             title= {<Balance/>}
-            text="Withdraw Amount"
             status={status}
             
             body={show ? 

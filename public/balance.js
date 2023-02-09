@@ -16,12 +16,12 @@ function Balance() {
     console.log(`Is this money format working ${formatter.format(ctx.currentUser.balance)}`);
     
     return (
-        <div class="container">
-            <div class="row">
-                <div class="col-sm text-left">
+        <div className="container">
+            <div className="row">
+                <div className="col-sm text-left">
                     Balance
                 </div>
-                <div class="col-sm text right">
+                <div className="col-sm text right">
                     {formatter.format(ctx.currentUser.balance)}
                 </div>
             </div>
